@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BE3523742634FB2A006D6711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3523732634FB2A006D6711 /* AppDelegate.swift */; };
 		BE3523762634FB2A006D6711 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3523752634FB2A006D6711 /* SceneDelegate.swift */; };
-		BE3523782634FB2A006D6711 /* PlayGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3523772634FB2A006D6711 /* PlayGameController.swift */; };
+		BE3523782634FB2A006D6711 /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3523772634FB2A006D6711 /* PlayGameViewController.swift */; };
 		BE35237B2634FB2A006D6711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3523792634FB2A006D6711 /* Main.storyboard */; };
 		BE35237D2634FB2B006D6711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE35237C2634FB2B006D6711 /* Assets.xcassets */; };
 		BE3523802634FB2B006D6711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE35237E2634FB2B006D6711 /* LaunchScreen.storyboard */; };
+		BE352391263500E8006D6711 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE352390263500E8006D6711 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE3523702634FB2A006D6711 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3523732634FB2A006D6711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE3523752634FB2A006D6711 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE3523772634FB2A006D6711 /* PlayGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameController.swift; sourceTree = "<group>"; };
+		BE3523772634FB2A006D6711 /* PlayGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
 		BE35237A2634FB2A006D6711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE35237C2634FB2B006D6711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE35237F2634FB2B006D6711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE3523812634FB2B006D6711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE352390263500E8006D6711 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				BE3523732634FB2A006D6711 /* AppDelegate.swift */,
 				BE3523752634FB2A006D6711 /* SceneDelegate.swift */,
-				BE3523772634FB2A006D6711 /* PlayGameController.swift */,
+				BE3523772634FB2A006D6711 /* PlayGameViewController.swift */,
 				BE3523792634FB2A006D6711 /* Main.storyboard */,
 				BE35237C2634FB2B006D6711 /* Assets.xcassets */,
 				BE35237E2634FB2B006D6711 /* LaunchScreen.storyboard */,
 				BE3523812634FB2B006D6711 /* Info.plist */,
+				BE352390263500E8006D6711 /* ResultsViewController.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3523782634FB2A006D6711 /* PlayGameController.swift in Sources */,
+				BE3523782634FB2A006D6711 /* PlayGameViewController.swift in Sources */,
 				BE3523742634FB2A006D6711 /* AppDelegate.swift in Sources */,
 				BE3523762634FB2A006D6711 /* SceneDelegate.swift in Sources */,
+				BE352391263500E8006D6711 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
